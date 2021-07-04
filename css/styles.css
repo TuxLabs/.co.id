@@ -179,6 +179,9 @@ p {
 #apps h2 {
     margin: 0 var(--page-margin-small);
 }
+#teams h2 {
+    margin: 0 var(--page-margin-small);
+}
 
 /* Footer */
 footer {
@@ -252,6 +255,10 @@ footer p {
         margin: 0 var(--page-margin-mid);
     }
 
+    #teams h2 {
+        margin: 0 var(--page-margin-mid);
+    }
+
     ul {
         margin: 0 15px;
     }
@@ -284,6 +291,10 @@ footer p {
     }
 
     #apps h2 {
+        margin: 0 var(--page-margin-large);
+    }
+
+    #teams h2 {
         margin: 0 var(--page-margin-large);
     }
 
@@ -340,6 +351,10 @@ footer p {
     }
 
     #apps h2 {
+        margin: 0 0 0 60px;
+    }
+
+    #teams h2 {
         margin: 0 0 0 60px;
     }
 
