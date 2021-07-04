@@ -59,6 +59,15 @@ body img {
     line-height: 20px;
     letter-spacing: 0em;
 }
+.p-cp {
+    /* font-family: var(--code-font-bold); */
+    font-size: 0.8125em;
+    /* text-transform: uppercase; */
+    color: #A0A1A6;
+    /* font-weight: bold; */
+    line-height: 20px;
+    /* letter-spacing: 0em; */
+}
 
 .header-container {
     display: flex;
@@ -80,6 +89,32 @@ body img {
     height: 393px;
     margin: 0 var(--page-margin-small);
 }
+
+
+.loader-container {
+    /* position: fixed; */
+    /* bottom: 50%; */
+    left: 20%;
+    right: 20%;
+    /* width: 700px; */
+    height: 50px;
+    /* border: 15px; */
+    color: var(--accent-color);
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 80px; */
+    line-height: 50px;
+    overflow: hidden;
+      z-index: 2;
+  }
+  @keyframes load {
+    100% {
+      transform: translateY(-1100px);
+    }
+  }
+  .loader {
+    animation: load 5s steps(11, end) infinite;
+  }
 
 h1 {
     color: var(--bg-color);
